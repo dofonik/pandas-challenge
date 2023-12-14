@@ -1,6 +1,10 @@
 # pandas-challenge
 Module 4 Challenge - UWA Data Analytics Bootcamp
 
+PyCitySchools folder contains PyCitySchools.ipynb, PyCitySchools_starter.ipynb, Analysis.txt and Resources file.
+PyCitySchools.ipynb is the main code, PyCitySchools_starter.ipynb contains starting code and model answers provided, Analysis.txt contains the text below.
+The Resources folder contains 2 CSV files which holds all analysed data. 
+
 SUMMARY:
 
 The data contained within the schools_complete.csv and students_complete.csv is first summarised into a "LGAsummary_df" data frame.
