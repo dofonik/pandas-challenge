@@ -1,6 +1,3 @@
-# pandas-challenge
-Module 4 Challenge - UWA Data Analytics Bootcamp
-
 SUMMARY:
 
 The data contained within the schools_complete.csv and students_complete.csv is first summarised into a "LGAsummary_df" data frame.
@@ -31,15 +28,3 @@ This conjecture is also supported when considering the Top Performing Schools (B
 The data also suggests that smaller schools perform better than larger schools.
 The Scores by School Size (SizeBinnedAvgs_df) demonstrates that small (<1000 students) schools have the highest average scores and pass rates, with large schools (2000-5000) having the lowest averages.
 The Medium (1000-2000) schools sit in the middle in terms of it's averages, with it's results being closer to that of small schools.
-
-
-REFERENCES:
-
-pandas.DataFrame.apply was required when handling already grouped data frames for conditional filtering of columns
-https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.apply.html
-
-pandas.DataFrame.replace was required remove string items from a column in order to properly cut/bin data (as number is needed to compare to bin numbers)
-https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.replace.html
-
-pandas.DataFrame.astype was required to convert column data to numbers (from string) as again, a number is needed to compare to bin numbers
-https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.astype.html
